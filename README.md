@@ -2,9 +2,7 @@
 A hybrid model consisting of SOM and ANNs to predict future frauds at the time of application. 
 
 
-Hybrid Deep learning model
-First unsupervised dl model som to identify the frauds
-Then use the results to make a supervised dl model-ann to see the percent a customer can cheat.
+In this hybrid deep learning model, first unsupervised DL model SOM is used to identify the frauds then we use the results to make a supervised DL model- ANN to see the percentage that a customer can cheat.
 
 When going from unsupervised to supervised we need a matrix of independent variables(features) -exclude ids column include class column
 
@@ -19,9 +17,9 @@ Dataset so small/ simple ann model will req 1 or 2 epochs to understand the corr
 Finally, add y_pred and we will convert that y_pred into an array where the first column represents the customer Ids and the second column represent the probability that they are gonna make fraud and at last, we thought the probability column by using .argsort() method 
 
 
-
-(dataset.iloc[:, 0:1].values
- 2D array  
-(dataset.iloc[:, 0].values
+> (dataset.iloc[:, 0:1].values)-
+ 2D array 
+ 
+> (dataset.iloc[:, 0].values)-
 vector
 
