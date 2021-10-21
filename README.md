@@ -15,7 +15,7 @@ We will continue from where we left the Credit card fraud detection-I.
   * X_train=Customers,y_train=is_fraud,batch_size=1
   * batch_size= 1 0r 2
 
-*Dataset so small/ simple ann model will require around 10 epochs to understand the correlations. so the weights can be updated on those epochs.*
+*Dataset so small/simple our ANN model will require around 10 epochs to understand the correlations. so the weights can be updated on those epochs.*
 
 * Finally, predict y_pred and we will convert that y_pred into an array where the first column represents the customer Ids and the second column represent the probability that they are gonna make a fraud.
 * At last, we sort the array according to the probability column by using .argsort() method.
